@@ -1,9 +1,10 @@
-import Audio from "./Audio";
+import { TextToSpeech } from "./TextToSpeech";
 const App = () => {
   return (
       <div>
           <h1>React Media Recorder</h1>
-          <Audio/>
+          {/* <Audio/> */}
+          <TextToSpeech/>
       </div>
   );
 };
